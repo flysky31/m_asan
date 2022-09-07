@@ -1,0 +1,135 @@
+.sub_wrap{
+
+}
+.sub_staff{
+    position: relative;
+    height: 100%;
+    background:#EFEFEF;
+}
+
+h2.sub_title{
+    text-align: center;
+    padding: 10px 0;
+    background: #fff;
+}
+.sub_staff article{
+    border-top: 1px solid #b9b9b9;
+    padding: 10px 12px;  
+
+}
+.sub_staff a.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 50px;
+    font-size: 0;
+    display: block;
+}
+.sub_staff a.back::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 17px;
+    height: 3px;
+    background: #888;
+    border-radius: 50px;
+}
+.sub_staff a.back::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #888;
+    transform: rotate(45deg);
+    border-right: 0;
+    border-top: 0;
+}
+
+.sub_staff p{
+    font-size: 14px;
+    padding: 15px 0 15px;
+}
+
+.search_box{
+    border: 1px solid #ddd;
+    background:#fff;
+    padding: 20px 10px 15px;
+    overflow: hidden;
+}
+.search_box input{
+    border: 0;
+    outline: 0;
+    width: calc(100% - 70px);
+    border-bottom: 1px solid #d7d7d7;
+    padding: 10px;
+    float: left;
+}
+.search_box .search_btn{
+    font-size: 12px;
+    float: right;
+    background: #666;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 2px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+.search_box input::placeholder{
+    font-size: 13px;
+    color: #888;
+    
+}
+.icon_box{
+
+}
+.icon_box ul{
+    overflow: hidden;
+    padding: 20px 0 0;
+}
+.icon_box li{
+    float: left;
+    width: 49.2%;
+    height: 100px;
+    text-align: center;
+    font-size: 0;
+    border: 1px solid #ddd;
+    margin-right: 1.6%;
+    margin-bottom: 1.6%;
+
+}
+.icon_box li:nth-of-type(2n){
+    margin-right: 0;
+}
+.icon_box li:nth-child(1){
+    background: url("../img/staff/img_step01.png")no-repeat #fff top center;    
+    background-size: 40px;
+}
+.icon_box li:nth-child(2){
+    background: url("../img/staff/img_step05.png")no-repeat #fff center center;    
+    background-size: 40px;
+}
+.icon_box li:nth-child(3){
+    background: url("../img/staff/img_step04.png")no-repeat #fff center center;    
+    background-size: 80px;
+}
+.icon_box li:nth-child(4){
+    background: url("../img/staff/img_step03.png")no-repeat #fff center center;    
+    background-size: 50px;
+}
+.icon_box li:nth-child(5){
+    background: url("../img/staff/img_step02.png")no-repeat #fff center center;    
+    background-size: 40px;
+}
+
+
+.icon_box li img {
+    width: 80px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub - 의료진찾기</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script defer src="./js/main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <!-- lnb background -->
+        <div class="cover"></div>
+        <header>
+            <div class="lnb_btn">
+                <a href="javascript:">
+                    <img src="./img/bg_header_lnb.png" alt="메뉴열기">
+                </a>
+            </div>
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./img/img_header_logo.png" alt="logo">
+                </a>
+            </h1>
+            <div class="search_btn">
+                <a href="javascript:">
+                    <img src="./img/img_topSerch.png" alt="검색하기">
+                </a>
+            </div>
+        </header>
+        <div id="content_wrap" class="sub_wrap">
+            <section class="sub_staff">
+                <h2 class="sub_title">의료진</h2>
+                <a href="javascript:" class="back">뒤로가기</a>
+                <article>                    
+                    <p>의료진 성명을 직접 입력하여 검색하거나, 진료과 또는 센터를 선택한 후 의료진을 찾을 수 있습니다.</p>
+                    <div class="search_box">
+                        <input type="text" placeholder="의료진명을 입력하세요.">
+                        <button class="search_btn">검색</button>
+                    </div>
+                    <div class="icon_box">
+                        <ul>
+                            <li><a href="javascript:">진료과</a></li>
+                            <li><a href="javascript:">암병원</a></li>
+                            <li><a href="javascript:">어린이병원</a></li>
+                            <li><a href="javascript:">심장병원</a></li>
+                            <li><a href="javascript:">센터</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </div>  
+        <footer>
+            <ul>
+                <li><a href="#">오시는 길</a></li>
+                <li><a href="#">모바일 진료카드</a></li>
+                <li><a href="#">진료&#47;검사결과 조회</a></li>
+            </ul>
+            <div class="flex_box">
+                <div class="left">
+                    <a class="tel" href="tel:1688-7575">1655-7575</a> 
+                    <span class="sns">
+                        <a href="#">유튜브</a>
+                        <a href="#">블로그</a>
+                    </span>
+                    <p>© Asan Medical Center. All rights reserved.</p>
+                </div>
+                <div class="right">
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">PC버전 보기</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="lnb">
+        <div class="lnb_login">
+          <p class="txt">로그인을 하시면 더 많은 정보를<br>확인 하실 수 있습니다.</p>
+          <img src="./img/btn_login.png" alt="로그인">
+        </div>
+        <ul class="lnb_list">
+          <li><a href="staff.html"><img src="./img/staff/img_lnbtab01_on.png" alt="의료진"></a></li>
+          <li><a href="#"><img src="./img/img_lnbtab02_off.png" alt="진료에약"></a></li>
+          <li><a href="#"><img src="./img/img_lnbtab03_off.png" alt="예약조회"></a></li>
+          <li><a href="#"><img src="./img/img_lnbtab04_off.png" alt="병원안내"></a></li>
+          <li><a href="#"><img src="./img/img_lnbtab05_off.png" alt="건강정보"></a></li>
+        </ul>
+        <div class="lnb_res">
+          <a href="#"><img src="./img/btn_reserve.png" alt="예약 및 문의 1688-7575"></a>
+        </div>
+      </div>
+</body>
+</html>

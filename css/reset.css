@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+header, main, section, aside, article, footer,
+nav, menu, details, figure, figcaption{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    outline: 0;
+    vertical-align: top;
+    border: 0;
+}
+
+.hidden{
+    display: none;
+}
