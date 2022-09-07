@@ -113,19 +113,19 @@ h2.sub_title{
     background-size: 40px;
 }
 .icon_box li:nth-child(2){
-    background: url("../img/staff/img_step05.png")no-repeat #fff center center;    
+    background: url("../img/staff/img_step05.png")no-repeat #fff top center;    
     background-size: 40px;
 }
 .icon_box li:nth-child(3){
-    background: url("../img/staff/img_step04.png")no-repeat #fff center center;    
+    background: url("../img/staff/img_step04.png")no-repeat #fff top center;    
     background-size: 80px;
 }
 .icon_box li:nth-child(4){
-    background: url("../img/staff/img_step03.png")no-repeat #fff center center;    
+    background: url("../img/staff/img_step03.png")no-repeat #fff top center;    
     background-size: 50px;
 }
 .icon_box li:nth-child(5){
-    background: url("../img/staff/img_step02.png")no-repeat #fff center center;    
+    background: url("../img/staff/img_step02.png")no-repeat #fff top center;    
     background-size: 40px;
 }
 
